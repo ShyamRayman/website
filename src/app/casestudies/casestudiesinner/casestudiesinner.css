@@ -1,0 +1,142 @@
+.case-inner-bg{
+    background: url("../../../../public/images/casestudiesinner/image\ 45\ \(1\).jpg");
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.case-inner-content{
+    background: url("../../../../public/images/casestudies/Subtract.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* InfiniteScroll.css */
+
+.scroller {
+  max-width: 100vh;
+}
+
+.scroller__inner {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll var(--_animation-duration, 40s)
+    var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-direction="right"] {
+  --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+  --_animation-direction: forwards;
+}
+
+.scroller[data-speed="fast"] {
+  --_animation-duration: 20s;
+}
+
+.scroller[data-speed="slow"] {
+  --_animation-duration: 60s;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}
+
+/* general styles */
+
+
+body {
+  display: grid;
+  min-block-size: 100vh;
+  place-content: center;
+  font-family: system-ui;
+  font-size: 1.125rem;
+  background-color: var(--clr-primary-100);
+  
+}
+
+.tag-list {
+  margin: 0;
+  padding-inline: 0;
+  list-style: none;
+}
+
+.tag-list li {
+  padding: 1rem;
+  background: var(--clr-primary-400);
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900);
+}
+
+
+@media screen and (max-width:850px){
+  
+  .scroller {
+    max-width: 70vh;
+  }
+}
+
+
+@media screen and (max-width:640px) {
+   .case-study-text{
+    position: absolute;
+    bottom: 0;
+    top:16rem;
+   } 
+
+   .scroller {
+    max-width: 50vh;
+  }
+
+  .case-inner-image-1 , .case-inner-image-2 , .case-inner-image-3, .case-inner-image-4{
+    width:300px;
+  }
+}
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+
+
+

@@ -1,0 +1,191 @@
+.review-content{
+  background: url("../../../public/images/casestudies/Subtract.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:auto;
+  width:100%;
+}
+
+@media only screen and (max-width: 770px) {
+ 
+    .client-review-1 {
+      position: absolute;
+      top: 0.6rem;
+      left: 2rem;
+    }
+  
+    .client-review-2 {
+      position: absolute;
+      top: 0.6rem;
+      right: 2rem;
+    }
+  
+    .client-review-3 {
+      position: absolute;
+      top: 12rem;
+      left: 7rem;
+    }
+  
+    .client-review-4 {
+      position: absolute;
+      top: 12rem;
+      right: 7rem;
+    }
+ 
+  }
+
+
+
+@media only screen and (max-width: 640px) {
+
+    .case-desc{
+        font-size: 12px;
+    }
+
+    .case-para{
+        padding: 0 3rem;
+    }
+ 
+    .client-review-1 {
+      position: absolute;
+      top: 0.6rem;
+      left: 2rem;
+    }
+  
+    .client-review-2 {
+      position: absolute;
+      top: 0.6rem;
+      right: 2rem;
+    }
+  
+    .client-review-3 {
+      position: absolute;
+      top: 12rem;
+      left: 5rem;
+    }
+  
+    .client-review-4 {
+      position: absolute;
+      top: 12rem;
+      right: 6rem;
+    }
+ 
+  }
+  
+  @media only screen and (max-width: 540px) {
+    .case-para{
+        padding: 0 2rem;
+    }
+
+    .client-review-1 {
+      position: absolute;
+      top: 0.6rem;
+      left: 0.1rem;
+    }
+  
+    .client-review-2 {
+      position: absolute;
+      top: 0.6rem;
+      right: 0.1rem;
+    }
+  
+    .client-review-3 {
+      position: absolute;
+      top: 10rem;
+      left: 1.6rem;
+    }
+  
+    .client-review-4 {
+      position: absolute;
+      top: 10rem;
+      right: 1.6rem;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 440px) {
+    .client-review-1 {
+      position: absolute;
+      top: 2rem;
+      left: 0;
+    }
+  
+    .client-review-2 {
+      position: absolute;
+      top: 2rem;
+      right: 0;
+    }
+  
+    .client-review-3 {
+      position: absolute;
+      top: 12rem;
+      left: 1rem;
+    }
+  
+    .client-review-4 {
+      position: absolute;
+      top: 12rem;
+      right: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .client-review-1 {
+        position: absolute;
+        top: 2rem;
+        left: 0;
+      }
+    
+      .client-review-2 {
+        position: absolute;
+        top: 2rem;
+        right: 0;
+      }
+    
+      .client-review-3 {
+        position: absolute;
+        top: 10rem;
+        left: 1rem;
+      }
+    
+      .client-review-4 {
+        position: absolute;
+        top: 10rem;
+        right: 1rem;
+      }
+  }
+
+  @media only screen and (max-width: 350px) {
+    .client-review-1 {
+        position: absolute;
+        top: 0.6rem;
+        left: 0;
+      }
+    
+      .client-review-2 {
+        position: absolute;
+        top: 0.6rem;
+        right: 0;
+      }
+    
+      .client-review-3 {
+        position: absolute;
+        top: 8rem;
+        left: 0.8rem;
+      }
+    
+      .client-review-4 {
+        position: absolute;
+        top: 8rem;
+        right: 0.8rem;
+      }
+  }
+
+  
+
+ 
+  
+
+
+  
+ 
